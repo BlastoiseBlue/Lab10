@@ -29,6 +29,10 @@ public class HotDogStand {
 		return total;
 	}
 
+	public static void outputTotal() {
+		System.out.println(total);
+	}
+
 	public HotDogStand() {
 		id = 0;
 		numSold = 0;
