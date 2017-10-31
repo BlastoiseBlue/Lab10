@@ -22,6 +22,10 @@ public class HotDogStand {
 		}
 	}
 
+	public int getId() {
+		return id;
+	}
+
 	public int getNumSold() {
 		return numSold;
 	}
